@@ -1,0 +1,86 @@
+
+PART A OUTPUT
+
+ushavudatha@Ushas-MacBook-Pro ~ % /usr/bin/python3 /Users/ushavudatha/Desktop/A1-CSE534/mydigTool.py stonybrook.edu A
+QUESTION SECTION:
+
+stonybrook.edu IN A
+
+ANSWER SECTION:
+stonybrook.edu. 900 IN A 129.49.22.66
+
+EXECUTION TIME: 60.9440803527832 msec
+ON: Sun Sep 25 20:24:35 2022
+MSG SIZE rcvd: 52
+
+
+ushavudatha@Ushas-MacBook-Pro ~ % /usr/bin/python3 /Users/ushavudatha/Desktop/A1-CSE534/mydigTool.py stonybrook.edu MX
+QUESTION SECTION:
+
+stonybrook.edu IN MX
+
+ANSWER SECTION:
+stonybrook.edu. 900 IN MX 1 sbmta1.cc.stonybrook.edu.
+stonybrook.edu. 900 IN MX 1 sbmta2.cc.stonybrook.edu.
+
+EXECUTION TIME: 62.074899673461914 msec
+ON: Sun Sep 25 20:25:20 2022
+MSG SIZE rcvd: 99
+
+ushavudatha@Ushas-MacBook-Pro ~ % /usr/bin/python3 /Users/ushavudatha/Desktop/A1-CSE534/mydigTool.py stonybrook.edu NS
+QUESTION SECTION:
+
+stonybrook.edu IN NS
+
+ANSWER SECTION:
+stonybrook.edu. 900 IN NS whoisthere.stonybrook.edu.
+stonybrook.edu. 900 IN NS nocnoc.stonybrook.edu.
+stonybrook.edu. 900 IN NS mewho.stonybrook.edu.
+
+EXECUTION TIME: 36.75580024719238 msec
+ON: Sun Sep 25 20:25:39 2022
+MSG SIZE rcvd: 118
+
+
+PART B
+
+ushavudatha@Ushas-MacBook-Pro ~ % /usr/bin/python3 /Users/ushavudatha/Desktop/A1-CSE534/dnsSEC.py verisigninc.com     
+QUESTION SECTION:
+
+verisigninc.com IN A
+
+ANSWER SECTION:
+
+verisigninc.com IN A 209.131.162.45
+verisigninc.com.
+
+EXECUTION TIME: 206.10570907592773 msec
+ON: Sun Sep 25 20:26:35 2022
+MSG SIZE rcvd: 51
+
+
+ushavudatha@Ushas-MacBook-Pro ~ % /usr/bin/python3 /Users/ushavudatha/Desktop/A1-CSE534/dnsSEC.py yahoo.com      
+QUESTION SECTION:
+
+yahoo.com IN A
+
+ANSWER SECTION:
+
+DNSSEC unsupported
+
+EXECUTION TIME: 124.35793876647949 msec
+ON: Sun Sep 25 20:27:18 2022
+MSG SIZE rcvd: 27
+
+ushavudatha@Ushas-MacBook-Pro ~ % /usr/bin/python3 /Users/ushavudatha/Desktop/A1-CSE534/dnsSEC.py dnssec-failed.org
+QUESTION SECTION:
+
+dnssec-failed.org IN A
+
+ANSWER SECTION:
+
+ DNSSEC verification failed
+
+EXECUTION TIME: 670.4649925231934 msec
+ON: Sun Sep 25 20:27:38 2022
+MSG SIZE rcvd: 44
